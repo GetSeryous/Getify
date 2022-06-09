@@ -32,7 +32,11 @@ const Success = () => {
             okolipraiz@gmail.com
           </a>
         </p>
-        <button type='button' width='300px' className='btn'>Contiune Shopping</button>
+        <Link href="/">
+          <button type="button" width="300px" className="btn">
+            Contiune Shopping
+          </button>
+        </Link>
       </div>
     </div>
   );
